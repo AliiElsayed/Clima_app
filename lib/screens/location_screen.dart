@@ -127,6 +127,7 @@ class _LocationScreenState extends State<LocationScreen> {
                     padding: const EdgeInsets.only(left: 15.0),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.baseline,
+                      textBaseline: TextBaseline.alphabetic,
                       children: [
                         Column(
                           mainAxisAlignment: MainAxisAlignment.center,
